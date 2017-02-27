@@ -10,7 +10,6 @@
 		$repassword = $_POST['repassword'];
 		$email = $_POST['email'];
 
-
 		if(!empty($firstname) && !empty($lastname) && !empty($login) && !empty($email) && !empty($password) && !empty($repassword))
 		{
 			if($password === $repassword)
